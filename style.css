@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -32,6 +31,7 @@ a {
 
 .icon {
   color: #f9faf8;
+  font-size: 24px;
 }
 
 .hero {
@@ -166,3 +166,56 @@ padding-bottom: 100px;
 /* quote section ends */
 
 /* cta starts */
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  
+}
+
+.cta-section {
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px 100px;
+  max-width: 900px;
+  margin: auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  gap: 100px;
+}
+
+.cta-section button {
+  display: flex;
+  font-weight: bold;
+  border-radius: 10px;
+  background: #3881f6;
+  border: 2px solid #f9faf8;
+  color: white;
+  padding: 10px 30px;
+}
+
+.cta-text {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.cta-text-down {
+  font-size: 18px;
+  color: #E5E7EB;
+  font-weight: 300; 
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 45px;
+  color: #f9faf8;
+}
